@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="functions.js"></script>
+		<link rel="stylesheet" type="text/css" href="function.css">
+	</head>
+	<body>
+		<form>
+			<label for="NumOfVal">Number of values</label>
+			<input type="text" id="fibCount">
+			<label for="consol">Console</label>
+			<input type="radio" name="outputType" id="consol" value="consol">
+			<label for="table">Table</label>
+			<input type="radio" name="outputType" id="table" value="table">
+		</form>
+		<button id="printFibonacci" onclick="getInput()">Print Fibonacci Values</button>
+		<div id="output">
+			<table>
+				<tr id="row1">
+				</tr>
+				<tr id="row2">
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
