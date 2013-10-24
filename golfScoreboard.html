@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+	<title>Casey's Golf Scoreboard</title>
+	<link rel="stylesheet" type="text/css" href="golf.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="golf-scores-xml.js"></script>
+	<script type="text/javascript" src="golf-xml.js"></script>
+</head>
+<body>
+	<div id="scoreBoard">
+		<table id="scoreboardTable">
+			<thead>
+				<tr>
+					<th colspan="11">Golf Scoreboard</th>
+				</tr>
+				<tr id="holes">
+					<td>Hole</td><td>0</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+					<td>7</td><td>8</td><td>9</td><td>Total</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr id="par">
+					<td>Par</td>
+				</tr>
+				</tr>
+			</tbody>
+		</table>
+		<button id="showForm">Show Form</button>
+	</div>
+	<div id="scoreForm">
+		<table id="scoreFormTable">
+			<thead>
+				<tr>
+					<th colspan="18">Golf Scoreboard</th>
+				</tr>
+				<tr id="holes">
+					<td>Hole</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+					<td>7</td><td>8</td><td>9</td><td>Total</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr id="par">
+					<td>Par</td><td>3</td><td>4</td><td>4</td><td>3</td><td>5</td><td>4</td>
+					<td>3</td><td>3</td><td>4</td><td>32</td>
+				</tr>
+			</tbody>
+		</table>
+		<button id="updateScores">Update Scores</button>
+	</div>
+</body>
+</HTML>
